@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Main-Class: Parser
+Class-Path: spring-boot-autoconfigure-2.4.3.jar spring-beans-5.3.4.jar s
+ nakeyaml-1.27.jar commons-lang3-3.9.jar spring-boot-starter-2.4.3.jar j
+ ackson-core-2.11.4.jar spring-core-5.3.4.jar tomcat-embed-core-9.0.43.j
+ ar jackson-annotations-2.11.4.jar commons-logging-1.2.jar spring-boot-s
+ tarter-web-2.4.3.jar jul-to-slf4j-1.7.30.jar spring-web-5.3.4.jar sprin
+ g-boot-2.4.3.jar jakarta.annotation-api-1.3.5.jar spring-boot-starter-l
+ ogging-2.4.3.jar logback-classic-1.2.3.jar jackson-datatype-jsr310-2.11
+ .4.jar jackson-datatype-jdk8-2.11.4.jar commons-collections-3.2.2.jar j
+ ackson-module-parameter-names-2.11.4.jar spring-webmvc-5.3.4.jar spring
+ -boot-starter-tomcat-2.4.3.jar commons-beanutils-1.9.4.jar logback-core
+ -1.2.3.jar spring-jcl-5.3.4.jar spring-aop-5.3.4.jar commons-text-1.7.j
+ ar slf4j-api-1.7.25.jar log4j-api-2.13.3.jar tomcat-embed-websocket-9.0
+ .43.jar log4j-to-slf4j-2.13.3.jar commons-collections4-4.4.jar spring-e
+ xpression-5.3.4.jar spring-context-5.3.4.jar jackson-databind-2.11.4.ja
+ r jakarta.el-3.0.3.jar spring-boot-starter-json-2.4.3.jar opencsv-5.0.j
+ ar
+
