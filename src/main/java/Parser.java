@@ -12,7 +12,10 @@ public class Parser {
             File file = new File(filename);
 
             try {
-                if (file.exists()) filesMap.put(file, getFileExtension(file));
+                if (file.exists()) {
+                    filesMap.put(file, getFileExtension(file));
+                    System.out.println(filename + " exiists");
+                } else  System.out.println(filename + "NOT exiists");
             } catch (Exception e) {
                 e.printStackTrace();
             }
