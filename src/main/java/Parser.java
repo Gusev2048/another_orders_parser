@@ -14,8 +14,8 @@ public class Parser {
             try {
                 if (file.exists()) {
                     filesMap.put(file, getFileExtension(file));
-                    System.out.println(filename + " exiists");
-                } else  System.out.println(filename + "NOT exiists");
+                    System.out.println(filename + " exists");
+                } else  System.out.println(filename + " NOT exists");
             } catch (Exception e) {
                 e.printStackTrace();
             }
