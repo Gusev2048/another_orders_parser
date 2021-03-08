@@ -1,7 +1,7 @@
 import java.io.File;
 
 //TODO:
-// - найти спринговый парсер
+// - найти спринговую фабрику
 // - добавить фабрику объекстов
 // - добавить очередь печати объектов (https://www.examclouds.com/ru/java/java-core-russian/interface-queue)
     // public class QueueExample {
