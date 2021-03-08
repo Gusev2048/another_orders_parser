@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Parser {
+public class Main {
     public static void main(String[] args) {
 
         List<String> extList = new ArrayList<>();
@@ -29,13 +29,14 @@ public class Parser {
             }
         }
 
-        List <NewThread> threadsList = new ArrayList<>();
+        List <Thread> readersList = new ArrayList<>();
 
-        for(int i = 0; i < 3; i++) {
-           threadsList.add(new NewThread(i));
+        for(File i : filesMap.keySet()) {
+            if(getFileExtension(i).equals("csv")) readersList.add(new CsvReader(i));
+            if(getFileExtension(i).equals("json")) readersList.add(new JsonReader(i));
         }
 
-        for(NewThread e : threadsList) e.start();
+        for(Thread e : readersList) e.start();
     }
 
     //метод, извлекающий расширение файла

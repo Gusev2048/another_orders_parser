@@ -36,7 +36,7 @@
                             <goal>repackage</goal>
                         </goals>
                         <configuration>
-                            <mainClass>Parser</mainClass>
+                            <mainClass>Main</mainClass>
                         </configuration>
                     </execution>
                 </executions>
