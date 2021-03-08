@@ -19,3 +19,8 @@ public class NewThread extends Thread {
         }
     }
 }
+
+//TODO:
+// - add @Beans
+// - add parser csv
+// - make @beans printable
