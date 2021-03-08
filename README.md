@@ -1,5 +1,5 @@
 # another_orders_parser
-Simple parser of .csv & .json
+Simple parser of .csv & .json (in progress)
 
 Build: mvn clean install
 
