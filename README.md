@@ -2,4 +2,5 @@
 Simple parser of .csv & .json
 
 Build: mvn clean install
-run: java -jar parser.jar filename1.csv filename2.json etc
+
+Run: java -jar parser.jar filename1.csv filename2.json etc
