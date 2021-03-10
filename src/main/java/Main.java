@@ -32,11 +32,12 @@ public class Main {
         List <Thread> readersList = new ArrayList<>();
 
         for(File i : filesMap.keySet()) {
-            if(getFileExtension(i).equals("csv")) readersList.add(new CsvReader(i));
-            if(getFileExtension(i).equals("json")) readersList.add(new JsonReader(i));
+            if(getFileExtension(i).equals("csv")) OrderCsvReaderFactory.csvOrderReader(i);
+            //if(getFileExtension(i).equals("json")) readersList.add(new JsonReader(i));
         }
 
         for(Thread e : readersList) e.start();
+
     }
 
     //метод, извлекающий расширение файла
